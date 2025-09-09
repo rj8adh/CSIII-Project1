@@ -4,6 +4,7 @@ public class Cat extends AnimatedActor
 {
     private String[] imgs;
     private Animation walk;
+    private int score;
     public Cat()
     { 
         imgs = new String[10];
@@ -15,6 +16,14 @@ public class Cat extends AnimatedActor
         walk.setTransparency(50);
         walk.scale(100, 100);
         setAnimation(walk);
+    }
+    public void increaseScore(int amt)
+    {
+        score += amt;
+    }
+    public int getScore()
+    {
+        return score;
     }
     public void act()
     {
