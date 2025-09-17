@@ -6,6 +6,7 @@ comment2.params=a
 comment2.target=void\ setAnimation(Animation)
 comment3.params=frameRate
 comment3.target=void\ setFramerate(int)
+comment3.text=\r\n\ \ \ \ public\ void\ \ setAnimation(Animation\ a,Animation\ b,\ Animation\ c,\ Animation\ d,\ Animation\ e)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ anims[0]\ \=\ a;\r\n\ \ \ \ \ \ \ \ anims[1]\ \=\ b;\r\n\ \ \ \ \ \ \ \ anims[2]\ \=\ c;\r\n\ \ \ \ \ \ \ \ anims[3]\ \=\ d;\r\n\ \ \ \ \ \ \ \ anims[4]\ \=\ e;\r\n\ \ \ \ }\r\n\ \ \ \ \r\n\ \ \ \ public\ void\ \ setAnimation(Animation\ a,Animation\ b,\ Animation\ c,\ Animation\ d,\ Animation\ e,\ Animation\ f,\ Animation\ g,\ Animation\ h)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ anims[0]\ \=\ a;\r\n\ \ \ \ \ \ \ \ anims[1]\ \=\ b;\r\n\ \ \ \ \ \ \ \ anims[2]\ \=\ c;\r\n\ \ \ \ \ \ \ \ anims[3]\ \=\ d;\r\n\ \ \ \ \ \ \ \ anims[4]\ \=\ e;\r\n\ \ \ \ \ \ \ \ anims[5]\ \=\ f;\r\n\ \ \ \ \ \ \ \ anims[6]\ \=\ g;\r\n\ \ \ \ \ \ \ \ anims[7]\ \=\ h;\r\n\ \ \ \ }\r\n
 comment4.params=
 comment4.target=void\ act()
 numComments=5
